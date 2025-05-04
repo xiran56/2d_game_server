@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.5)
+
+set(INCLUDES ${INCLUDES} ${CMAKE_CURRENT_SOURCE_DIR}/entt/src PARENT_SCOPE)
